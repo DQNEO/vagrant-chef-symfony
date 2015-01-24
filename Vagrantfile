@@ -5,7 +5,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.omnibus.chef_version = :latest
 
-  config.vm.network :private_network, ip: "10.10.10.10"
+  config.vm.network :private_network, ip: "10.10.10.11"
 
   config.vm.provision "chef_solo" do |chef|
     chef.cookbooks_path = ["./cookbooks", "./site-cookbooks"]
