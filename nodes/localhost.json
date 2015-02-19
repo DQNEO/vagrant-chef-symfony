@@ -1,7 +1,7 @@
 {
   "run_list": [
+    "docker",
     "editor",
-
     "hello"
   ],
 
