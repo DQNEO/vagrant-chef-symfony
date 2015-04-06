@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "chef_solo" do |chef|
     chef.cookbooks_path = ["./cookbooks", "./site-cookbooks"]
-    chef.json = JSON.parse(File.read("./nodes/localhost.json"));
+    chef.json = JSON.parse(File.read("./nodes/vagrant.json"));
   end
 
 end
