@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vbguest.auto_update = false
 
-  config.vm.network :private_network, ip: "10.10.10.11"
+  config.vm.network :private_network, ip: "10.10.20.20"
 
   if Vagrant.has_plugin?("vagrant-cachier")
     config.cache.scope = :box
