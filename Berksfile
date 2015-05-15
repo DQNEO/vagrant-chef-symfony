@@ -4,7 +4,7 @@ source "https://supermarket.chef.io"
 cookbook 'yum'
 cookbook "yum-epel"
 
-#cookbook 'editor'
+cookbook 'editor'
 
 # use my cookbook on github
 cookbook 'hello',             github: 'DQNEO/cookbook-hello'
