@@ -12,5 +12,19 @@
 
   "editor": {
     "default": "nano"
+  },
+  "php": {
+    "additional_packages" : [
+        "php-mbstring",
+        "php-devel",
+        "php-gd",
+        "php-pgsql",
+        "php-pdo",
+        "php-mcrypt",
+        "php-opcache",
+        "php-pecl-imagick",
+        "php-pecl-memcache",
+        "php-pecl-memcached"
+    ]
   }
 }
