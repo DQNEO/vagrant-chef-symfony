@@ -22,6 +22,7 @@
         "php-pdo",
         "php-mcrypt",
         "php-opcache",
+        "php-intl",
         "php-pecl-imagick",
         "php-pecl-memcache",
         "php-pecl-memcached"
