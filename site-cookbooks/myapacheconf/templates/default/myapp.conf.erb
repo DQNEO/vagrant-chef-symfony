@@ -50,9 +50,4 @@
   DirectoryIndex <%= [@params[:directory_index]].flatten.join " " %>
   <% end -%>
 
-  # Canonical host, <%= @params[:server_name] %>
-  RewriteCond %{HTTP_HOST}   !^<%= @params[:server_name] %> [NC]
-  RewriteCond %{HTTP_HOST}   !^$
-  RewriteRule ^/(.*)$        http://<%= @params[:server_name] %>/$1 [L,R=301]
-
 </VirtualHost>
