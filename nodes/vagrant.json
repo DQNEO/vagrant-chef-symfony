@@ -6,6 +6,7 @@
     "php56::composer",
     "apache2",
     "apache2::mod_php5",
+    "myapacheconf",
     "null"
   ],
 
