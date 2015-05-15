@@ -2,6 +2,10 @@
   "run_list": [
     "hello",
     "editor",
+    "php56",
+    "php56::composer",
+    "apache2",
+    "apache2::mod_php5",
     "null"
   ],
 
