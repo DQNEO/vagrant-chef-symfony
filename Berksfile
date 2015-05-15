@@ -5,7 +5,6 @@ cookbook 'yum'
 cookbook "yum-epel"
 
 #cookbook 'editor'
-#cookbook 'docker'
 
 # use my cookbook on github
 cookbook 'hello',             github: 'DQNEO/cookbook-hello'
